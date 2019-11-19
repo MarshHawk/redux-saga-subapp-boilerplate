@@ -5,8 +5,7 @@ dist
 
 # dependencies
 /node_modules
-/example-hoist/node_modules
-
+/hoisted-example/node_modules
 /.pnp
 .pnp.js
 
@@ -15,7 +14,7 @@ dist
 
 # production
 /build
-/example-hoist/build
+/hoisted-example/build
 
 # misc
 .DS_Store
