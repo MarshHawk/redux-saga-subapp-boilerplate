@@ -5,8 +5,8 @@ dist
 
 # dependencies
 /node_modules
-example-hoist/node_modules
-e
+/example-hoist/node_modules
+
 /.pnp
 .pnp.js
 
