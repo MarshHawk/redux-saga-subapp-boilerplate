@@ -1,0 +1,42 @@
+{
+  "name": "redux-saga-subapp-boilerplate",
+  "version": "1.0.0",
+  "description": "Updated react-modern-library-boilerplate with latest dependencies and minimally prescriptive redux subapp design",
+  "repository": "https://github.com/MarshHawk/redux-saga-subapp-boilerplate",
+  "author": "MarshHawk",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "@babel/core": "^7.7.2",
+    "@babel/preset-env": "^7.7.1",
+    "@babel/preset-react": "^7.7.0",
+    "create-react-app": "^3.2.0",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-redux": "^7.1.3",
+    "redux": "^4.0.4",
+    "redux-saga": "^1.1.3",
+    "rollup": "^1.27.2",
+    "rollup-plugin-babel": "^4.3.3",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-peer-deps-external": "^2.2.0",
+    "rollup-plugin-postcss": "^2.0.3",
+    "rollup-plugin-terser": "^5.1.2",
+    "rollup-plugin-url": "^3.0.0"
+  },
+  "peerDependencies": {
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "redux": "^4.0.0",
+    "react-redux": "^7.0.0",
+    "redux-saga": "^1.0.0"
+  },
+  "scripts": {
+    "build": "npx rollup -c",
+    "start": "npx rollup -c -w"
+  },
+  "main": "dist/redux-saga-subapp-boilerplate.cjs.js",
+  "module": "dist/redux-saga-subapp-boilerplate.esm.js",
+  "bundle": "dist/redux-saga-subapp-boilerplate.min.js"
+}
